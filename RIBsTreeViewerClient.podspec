@@ -13,11 +13,11 @@ Real Time viewing attached RIBs Tree on Browser
   s.author           = { 'Yuki Tamazawa' => 'yuki.tamazawa@icloud.com' }
   s.source           = { :git => 'https://github.com/github@nickpotts.com.au/RIBsTreeViewerClient.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'RIBsTreeViewerClient/Sources/**/*'
 
   s.dependency 'RxSwift', '~> 5.0.1'
   s.dependency 'RIBs', '~> 0.9'
-
+  s.dependency 'Starscream', '~> 3.0.2'
 end

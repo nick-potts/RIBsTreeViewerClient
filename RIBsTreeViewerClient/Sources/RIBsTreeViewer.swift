@@ -10,7 +10,7 @@ import Foundation
 import RxSwift
 import RIBs
 
-public protocol RIBsTreeViewer {
+protocol RIBsTreeViewer {
     func start()
 }
 
@@ -19,7 +19,7 @@ public enum RIBsTreeViewerOptions: String {
 }
 
 @available(iOS 13.0, *)
-public class RIBsTreeViewerImpl: RIBsTreeViewer {
+public class RIBsTreeViewerImpl {
 
     private let router: Routing
     private let webSocket: WebSocketClient
